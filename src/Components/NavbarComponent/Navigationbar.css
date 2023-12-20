@@ -1,0 +1,12 @@
+.navbar-plate{
+    padding-left: 1%;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+.logo-component{
+    padding-left: 2%;
+}
+.responsive-button{
+    padding-right: 2%;
+}

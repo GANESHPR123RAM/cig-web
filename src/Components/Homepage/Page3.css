@@ -1,0 +1,39 @@
+.containerpage3 {
+    width: 99vw;
+    height: 80vh;
+  display: flex;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.col1page3 {
+    width: 49.5vw;
+    height: 80vh;
+    left: 0%;
+    color: #000000;
+
+    font-family: Inter;
+    font-size: 22px;
+    /* font-style: normal; */
+    font-weight: 400;
+    line-height: 135%;
+    padding: 20vh 5vw ;
+}
+
+.col2page3 {
+    width: 49.5vw;
+    height: 80vh;
+    right: 0%;
+    position: relative;
+    z-index: 1;
+
+}
+
+.homepagebg3{
+    width: 40vw;
+    height: 70vh;
+  padding: 5vh 0vw 5vh 10vw;
+
+    position: relative;
+    z-index: 2;
+}

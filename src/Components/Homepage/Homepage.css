@@ -1,0 +1,11 @@
+.container-homepage {
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+    text-decoration: none;
+}
+.carouselbox{
+    width: 99vw;
+    height: 100vh;
+    background-color: rgb(196, 192, 187);
+}

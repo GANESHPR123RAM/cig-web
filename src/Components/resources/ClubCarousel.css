@@ -1,0 +1,85 @@
+
+  
+  .containerG {
+    width: 100%;
+    margin-top: 100px !important;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background: linear-gradient(red, transparent),
+      linear-gradient(to top left, lime, transparent),
+      linear-gradient(to top right, blue, transparent);
+    background-blend-mode: screen; */
+  }
+  
+  .cardG {
+    width: 280px;
+    height: 360px;
+    margin-right: 75px;
+    /* background: #f1f1f1; */
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+      rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+      rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+      rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+      rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  
+    background-blend-mode: screen;
+    border-radius: 30px;
+    border-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     justify-content: space-around;
+    text-align: center;
+ 
+  }
+  .groupsData {
+    width: 97vw;
+    height: 90vh;
+    margin: 100px 0 0 5px;
+  
+  }
+  
+  .react-multi-carousel-list {
+    height: 600px;
+  }
+  .cardG > img {
+  width: 50%;
+  height: 50%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 4vw 0 5vw;
+  }
+  
+  .cardG > h6 {
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1vw;
+
+    /* line-height: 22px; */
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #331401;
+    /* tex */
+  }
+  
+  .cardG > p {
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.6vw;
+    line-height: 131%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    width: 230px;
+    margin: 1vw 2vw 1vw 2vw;
+    overflow-y: scroll;
+  }
+  
