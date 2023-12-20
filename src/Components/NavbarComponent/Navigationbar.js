@@ -18,8 +18,8 @@ function Navigationbar() {
             <Link className="nav-item nav-link active" to="/Home">Home <span className="sr-only"></span></Link>
             <Link className="nav-item nav-link active" to="/AboutUs">About <span className="sr-only"></span></Link>
             <Link className="nav-item nav-link active" to="/Resources">Resources <span className="sr-only"></span></Link>
-            <a className="nav-item nav-link active" href="/">Blog <span className="sr-only"></span></a>
-            <a className="nav-item nav-link active" href="/">Contact <span className="sr-only"></span></a>
+            <Link className="nav-item nav-link active" to="/Blog">Blog <span className="sr-only"></span></Link>
+            <Link className="nav-item nav-link active" to="/Contact">Contact <span className="sr-only"></span></Link>
           </div>
         </div>
       </nav>
