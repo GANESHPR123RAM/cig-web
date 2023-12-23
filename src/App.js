@@ -6,7 +6,9 @@ import Navigationbar from './Components/NavbarComponent/Navigationbar.js';
 import AboutUs from './Components/Aboutpage/AboutUs.js'
 import IndexResourcesc from './Components/resources/IndexResourcesc.js'
 import ContactUs from './Components/ContactUs/ContactUs.js'
-import Blog from './Components/Blog/Blog.js';
+import Event from './Components/Event/Event.js'
+import NavPage from './Components/NavbarComponent/NavPage.js'
+
 
 import React from "react";
 import {
@@ -24,20 +26,17 @@ function App() {
         <React.Fragment>
           <Navigationbar />
         </React.Fragment>
-
         <Routes>
           <Route path='/Home' element={<Homepage />}>
-
+          </Route>
+          
+          <Route path='/NavPage' element={<NavPage />}>
+          </Route>
+          <Route path='/Event' element={<Event />}>
           </Route>
           <Route path='/AboutUs' element={<AboutUs />}>
-
           </Route>
           <Route path='/Contact' element={<ContactUs />}>
-
-          </Route>
-      
-          <Route path='/Blog' element={<Blog />}>
-
           </Route>
           <Route path='/Resources' element={<div className="resourcesc">
             <IndexResourcesc />
@@ -47,7 +46,6 @@ function App() {
         <React.Fragment>
           <FooterContainer />
         </React.Fragment>
-
       </div>
     </Router>
   );

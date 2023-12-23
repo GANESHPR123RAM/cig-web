@@ -25,7 +25,7 @@ function ContactUs() {
                     <div className="BoxLeft">
                         <div className="address">
                             <div className="addressIcon">
-                                <img src={address} />
+                                <img src={address} alt='address' />
                             </div>
                             <div className="footerRow">
                                 <p><strong>Address</strong></p>
@@ -35,15 +35,12 @@ function ContactUs() {
                                 Ground Floor, Student Activity Center <br />
                                 IIT Roorkee, Roorkee <br />
                                 Uttarakhand, India - 247667
-                               
+                                <img src={email} alt='email' /> <p>cig@iitr.ac.in</p>
                             </div>
-                        </div>
-                        <div className="map">
-
                         </div>
                         <div className="email">
                             <div className="emailIcon">
-                                <img src={email} />
+                                <img src={email} alt='email' />
                             </div>
                             <div className="emailAddress">
                                 <p><strong>Email</strong></p>
@@ -52,7 +49,7 @@ function ContactUs() {
                         </div>
                         <div className="phone">
                             <div className="phoneIcon">
-                                <img src={phone} />
+                                <img src={phone} alt='phone' />
                             </div>
                             <div className="phoneNo">
                                 <p><strong>Phone</strong></p>
@@ -63,7 +60,7 @@ function ContactUs() {
                             </div>
                         </div>
                     </div>
-                    <div className="BoxRight">
+                    {/* <div className="BoxRight">
                         <div className="contactright">
                             <h4>Contact Us</h4>
                             <div>
@@ -106,8 +103,8 @@ function ContactUs() {
                                     </div>
                                 </form>
                             </div>
-                        </div>
-                    </div>
+                        </div> 
+                    </div>*/}
                 </div>
             </div>
         </div>

@@ -1,0 +1,326 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2 {
+    margin: 1.5em 0 0.5em;
+  
+    line-height: 1.15;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+  }
+  
+  .blog {
+    font-family: poppins, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #Heading {
+    font-size: 5em;
+  }
+  
+  .banner {
+    margin: 100px 0 100px 0;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .blogContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    text-align: justify;
+    width: 40%;
+  }
+  .selection {
+    margin: 15px 5px 10px 160px;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+  }
+  
+  .btn {
+    border-radius: 10%;
+  }
+  /* .post {
+    margin: 40px 75px;
+  
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 0 10px;
+  
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 50px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  
+  .img {
+    padding: 10px;
+    height: 250px;
+    width: 100%;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0 10px 0;
+  }
+  .heading {
+    padding: 10px;
+  
+    width: 70%;
+    margin: 40px 0 10px 0;
+  }
+  .description {
+    width: 100%;
+    padding: 10px;
+    text-align: justify;
+  }
+  .AppPost {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px 25px 10px 25px;
+    padding: 0 20px 0 20px;
+    justify-content: center;
+  }
+  .ant-btn-primary {
+    width: 50%;
+    margin: 10px 0 20px 70px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+  span {
+    top: 0.45vw;
+  }
+  
+  .button {
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    display: inline-block;
+  } */
+  .postBtn {
+    display: flex;
+  }
+  
+  .selection > .button-3 {
+    font-family: "Poppins";
+    font-size: medium;
+    border: 2px solid #3c73ff;
+    background-color: #3c73ff;
+    border-radius: 10px;
+    color: #fff;
+    transition: 0.3s;
+  }
+  .selection > .button-3:hover {
+    box-shadow: 8px 8px #99bdff;
+    transition: 0.3s;
+  }
+  .postImage {
+    width: 500px;
+    height: 100%;
+  }
+  .modalContent {
+    text-align: justify;
+    display: flex;
+    justify-content: space-around;
+    font-family: "poppins", "Courier New", Courier, monospace;
+  }
+  .modalContent h1 {
+    font-size: 4em;
+  }
+  .modalContent p {
+    font-size: 1.2em;
+  }
+  .modalDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 50%;
+  }
+  .modalImage {
+    border: 1px solid black;
+    height: 80%;
+    width: 40%;
+    margin-top: 50px;
+  }
+  .modalStyle .ant-modal-content {
+    padding: 0 20px 0 0;
+  }
+  a,
+  header,
+  section,
+  p,
+  footer,
+  time,
+  span,
+  div {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+  }
+  .outer {
+    position: relative;
+    padding: 0 3vw;
+  }
+  .inner {
+    margin: 0 auto;
+    max-width: 1600px;
+    width: 70%;
+  }
+  .post-feed {
+    position: relative;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+    padding: 40px 0 0;
+  }
+  .post-card,
+  .post-feed {
+    display: flex;
+    justify-content: space-between;
+  }
+  .post-card {
+    width: 300px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0 20px 40px;
+    min-height: 300px;
+    background: #fff 50%;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  .post-card:hover {
+    -webkit-box-shadow: rgba(39, 44, 49, 0.07) 8px 28px 50px,
+      rgba(39, 44, 49, 0.04) 1px 6px 12px;
+    box-shadow: 8px 28px 50px rgba(39, 44, 49, 0.07),
+      1px 6px 12px rgba(39, 44, 49, 0.04);
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    -webkit-transform: translate3D(0, -1px, 0) scale(1.02);
+    transform: translate3D(0, -1px, 0) scale(1.02);
+  }
+  .post-card-image-link {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+  }
+  .post-card-image {
+    width: 100%;
+    height: 200px;
+    background: #c5d2d9 no-repeat 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  .post-card-content-link {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    display: block;
+    padding: 25px 25px 0;
+    color: #15171a;
+  }
+  .post-card-content-link:hover {
+    text-decoration: none;
+  }
+  .post-card-tags {
+    display: block;
+    margin-bottom: 4px;
+    color: #738a94;
+    font-size: 1.2rem;
+    line-height: 1.15em;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  .post-card-title {
+    margin-top: 0;
+  }
+  .post-card-content {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .post-card-excerpt {
+    font-family: "inter", Georgia, serif;
+  }
+  .post-card-excerpt > p {
+    margin-bottom: 12px !important;
+    margin: 0 0 1.5em;
+  }
+  .post-card-meta {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    padding: 0 25px 25px;
+  }
+  .post-full-meta-date {
+    color: #3eb0ef;
+  }
+  .reading-time {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin-left: 20px;
+    color: #738a94;
+    font-size: 0.7rem;
+    line-height: 33px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  .postBtn {
+    margin: 5px 0 10px 20px;
+    width: 7vw;
+    font-family: "inter", "Courier New", Courier, monospace;
+    display: flex;
+    align-items: center;
+  }
+  

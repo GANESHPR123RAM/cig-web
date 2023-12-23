@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import '../Homepage/Page2.css'
 import homepagebg2 from '../Images/homepagebg2.png'
+import { Link } from 'react-router-dom'
 
 export class Page2 extends Component {
     render() {
@@ -17,7 +18,7 @@ export class Page2 extends Component {
                         <li>&#129170; Deeper and fresher solutions from academy experts.</li>
                         <li>&#129170; Effective Identification of potential employees.</li>
                     </ul>
-                    <a href='/'>View Resources</a>
+                    <Link to='/Event'>View Resources</Link>
                 </div>
             </div>
         )

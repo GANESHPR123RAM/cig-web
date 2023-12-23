@@ -1,47 +1,22 @@
-/* .carouselbox{
-    width: 99vw;
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10vh 10vw;
-    
-} */
+
 .slide {
-  width: 98.3%;
-  height: 100%;
-    background-color: rgba(3, 3, 3, 0);
-}
-
-.caraouselbg {
-    width: 100%;
+    width: 98.3%;
     height: 100%;
-    filter: blur(7px);
-    -webkit-filter: blur(7px);
-    position: absolute;
-    z-index: 0;
 }
-
 .box1 {
     width: 100%;
     height: 100%;
     position: absolute;
     z-index: 1;
-    /* top: 50%;
-    left: 50%;
-    
-   transform: translate(-50%, -50%); */
 }
 
 .cardCarousel {
     width: 70%;
     height: 30%;
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
     padding-left: 25%;
-    /* padding-top: 5%;  */
 }
 
 .imgcarousel {
@@ -51,8 +26,6 @@
     align-items: center;
     justify-content: center;
     padding: 5%;
-
-
 }
 
 .containtcarousel {
@@ -60,8 +33,9 @@
     height: 30%;
     display: flex;
     flex-direction: column;
-   text-align: center;
+    text-align: center;
     color: rgb(0, 0, 0);
+    font-size: 16px;
 }
 
 .imgbox {
@@ -70,4 +44,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width:500px) {
+.slide {
+    width: 98.3%;
+    height:100%;
+}
+
+.containtcarousel {
+  font-size: 12px;
+}
+
+}
+@media (max-width:400px) {
+    .containtcarousel {
+        font-size: 10px;
+      } 
+    
 }

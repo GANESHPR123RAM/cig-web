@@ -27,7 +27,7 @@ ul {
 }
 
 .footer-col {
-  width: 25%;
+  width: 20%;
   padding: 0 15px;
 }
 
@@ -89,17 +89,26 @@ ul {
   background-color: #ffffff;
 }
 
+
 /*responsive*/
 @media(max-width: 767px) {
   .footer-col {
     width: 50%;
     margin-bottom: 30px;
   }
+  .footer{
+    width: 100vw;
+    height: 100vh;
+  }
 }
 
 @media(max-width: 574px) {
   .footer-col {
     width: 100%;
+  }
+  .footer{
+    width: 100vw;
+    height: 120vh;
   }
 }
 

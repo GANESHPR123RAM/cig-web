@@ -8,7 +8,7 @@ import cis from "../Images/cls.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import bg from '../Images/bgcomp.png'
+
 
 function CarouselData() {
     const settings = {
@@ -24,9 +24,8 @@ function CarouselData() {
     return (
 
         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-            <img src={bg} className='caraouselbg' alt='bg' />
             <div className="box1">
-                <h1 className='text-center my-3' style={{ color: 'beige' }}>Featured Works</h1>
+                <h1 className='text-center my-3 ' style={{ color: 'black' }}>Featured Works</h1>
                 <Slider {...settings}>
                     {
                         data.map((d) => (

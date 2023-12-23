@@ -1,6 +1,8 @@
 import React from 'react'
 import '../FooterComponent/footer.css'
+import { Link } from 'react-router-dom'
 import logo from '../Images/logo.svg'
+import email from '../ContactUs/svg/email.svg'
 
 function FooterContainer() {
   return (
@@ -10,40 +12,50 @@ function FooterContainer() {
           <div className="footer-col">
             <h4>About Us</h4>
             <ul>
-              <li><a href="#">Story</a></li>
-              <li><a href="#">Clients</a></li>
-              <li><a href="#">privacy policy</a></li>
-              <li><a href="#">affiliate program</a></li>
+              <li><a href="/">Story</a></li>
+              <li><a href="/">Clients</a></li>
+              <li><a href="/">Testimonials</a></li>
             </ul>
           </div>
           <div className="footer-col">
-            <h4>get help</h4>
+            <h4>Services</h4>
             <ul>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">shipping</a></li>
-              <li><a href="#">returns</a></li>
-              <li><a href="#">order status</a></li>
-              <li><a href="#">payment options</a></li>
+              <li><a href="/">Marketing</a></li>
+              <li><a href="/">Consulting</a></li>
+              <li><a href="/">Development</a></li>
+              <li><a href="/">Design</a></li>
             </ul>
           </div>
           <div className="footer-col">
-            <h4>online shop</h4>
+            <h4> Contact Us</h4>
             <ul>
-              <li><a href="#">watch</a></li>
-              <li><a href="#">bag</a></li>
-              <li><a href="#">shoes</a></li>
-              <li><a href="#">dress</a></li>
+              <li><a href="/">United States</a></li>
+              <li><a href="/">United Kingdom</a></li>
+              <li><a href="/">Australia</a></li>
+              <li><a href="/">Support</a></li>
             </ul>
+          </div>
+          <div className="footer-col" style={{color:'white',fontSize:'16px',fontWeight:'50'}}>
+            <h4>Address</h4>
+            <img src={logo} alt='logo' className='ftlogo' />
+            CORPORATE INTERACTION CLUB
+            <br />
+            Ground Floor, Student Activity Center <br />
+            IIT Roorkee, Roorkee <br />
+            Uttarakhand, India - 247667
+           cig@iitr.ac.in
           </div>
           <div className="footer-col">
             <h4>follow us</h4>
             <div className="social-links">
-              <a href="#"><i className="fab fa-facebook-f"></i></a>
-              <a href="#"><i className="fab fa-twitter"></i></a>
-              <a href="#"><i className="fab fa-instagram"></i></a>
-              <a href="#"><i className="fab fa-linkedin-in"></i></a>
+              <Link to="https://www.facebook.com/cig.iitroorkee/"><i className="fab fa-facebook-f"></i></Link>
+              <Link to="https://twitter.com/cig_iitr?lang=en"><i className="fab fa-twitter"></i></Link>
+              <Link to="https://www.instagram.com/cig_iitr?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="><i className="fab fa-instagram"></i></Link>
+              <Link to="https://www.linkedin.com/company/corporate-interactions-group/"><i className="fab fa-linkedin-in"></i></Link>
             </div>
+
           </div>
+
         </div>
       </div>
     </footer>
