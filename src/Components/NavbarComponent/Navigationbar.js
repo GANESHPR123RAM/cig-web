@@ -21,7 +21,7 @@ function Navigationbar() {
             <Link className="nav-item nav-link active" to="/AboutUs">About <span className="sr-only"></span></Link>
             <Link className="nav-item nav-link active" to="/Resources">Resources <span className="sr-only"></span></Link>
             <Link className="nav-item nav-link active" to="/Event">Event<span className="sr-only"></span></Link>
-            <Link className="nav-item nav-link active" to="/Contact">Contact <span className="sr-only"></span></Link>
+            {/* <Link className="nav-item nav-link active" to="/Contact">Contact <span className="sr-only"></span></Link> */}
             <Link className="nav-item nav-link active" to="https://medium.com/@cig_59196">Blog <span className="sr-only"></span></Link>
           </div>
         </div>
