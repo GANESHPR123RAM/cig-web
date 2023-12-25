@@ -10,7 +10,7 @@ function NavPage() {
       <Link className="nav-item nav-link active" to="/Resources"><strong>Resources</strong> <span className="sr-only"></span></Link>
       <Link className="nav-item nav-link active" to="/Event"><strong>Event</strong><span className="sr-only"></span></Link>
       {/* <Link className="nav-item nav-link active" to="/Contact"><strong>Contact </strong><span className="sr-only"></span></Link> */}
-      <Link className="nav-item nav-link active" to="https://medium.com/@cig_59196">Blog <span className="sr-only"></span></Link>
+      <Link className="nav-item nav-link active" to="https://medium.com/@cig_59196"><strong>Blog </strong><span className="sr-only"></span></Link>
     </div>
   )
 }

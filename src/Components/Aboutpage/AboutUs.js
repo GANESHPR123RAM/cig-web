@@ -6,15 +6,11 @@ import './AboutUs.css'
 import AboutFirst from './AboutFirst'
 import Administrative from './Administrative'
 import Student from './Student'
+import HeadOf from './HeadOf'
 
 function AboutUs() {
-
-
     const [item, setItems] = useState(data)
     const menuItems = [...new Set(data.map((d) => d.category))]
-
-
-
     const filterItems = (cat) => {
         const newItems = data.filter((newval) => newval.category === cat)
         setItems(newItems)
@@ -34,7 +30,14 @@ function AboutUs() {
                 <div className="row">
                     <h1 className='text-center col-12 fw-bold my-3 mb-5'>Student Body</h1>
                     <div className="Cardbox">
-                       <Student/>
+                        <Student />
+                    </div>
+                </div>
+            </div>
+            <div className="container-fluid box ">
+                <div className="row">
+                    <div className="Cardbox">
+                        <HeadOf />
                     </div>
                 </div>
             </div>
@@ -42,7 +45,7 @@ function AboutUs() {
                 <div className="row">
                     <h1 className='text-center col-12 fw-bold my-3 mb-5'>Team-Members</h1>
                     <div className="Cardbox">
-                        <div className="buttonbox">
+                        <div className="buttonbox col-12 fw-bold my-3 mb-5">
                             <Buttons
                                 menuItems={menuItems}
                                 filterItems={filterItems}
@@ -51,14 +54,9 @@ function AboutUs() {
                         </div>
                         <Card item={item} />
                     </div>
-
-
                 </div>
-
             </div>
         </>
     )
-
 }
-
 export default AboutUs

@@ -8,9 +8,9 @@ function Card({ item }) {
         <div className="row">
           {
             item.map((d) => (
-            <article className="profileC my-3">
+            <article className="profileC my-3 mx-3">
             <div className="profile-imageC">
-                <img src={d.urlImg} />
+                <img src={d.urlImg} alt=''/>
             </div>
             <h2 className="profile-usernameC">{d.title}</h2>
         </article>

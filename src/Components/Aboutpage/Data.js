@@ -1,170 +1,307 @@
-import prachi from '../Images/teams/Prachi2.jpg'
+
 import Ganesh from '../Images/teams/Ganesh.jpg'
 import Ayush from '../Images/teams/Ayush.jpg'
 import Sweety from '../Images/teams/Sweety.jpg'
 import Bhavdeep from '../Images/teams/Bhavdeep.jpg'
-import IMG_8748 from '../Images/teams/IMG_8748.jpg'
+import Divyansh from '../Images/teams/Divyansh.jpg'
 import Karan from '../Images/teams/Karan Sardar .jpg'
 import Bhandari from '../Images/teams/Bhandari.jpg'
 import Swaraj from '../Images/teams/Swaraj.jpg'
 import Akhilesh from '../Images/teams/Akhilesh.jpg'
 import Pratik from '../Images/teams/Pratik .jpg'
 import Sachal from '../Images/teams/Sachal Kumar .jpg'
-import IMG_20230619_044152_877 from '../Images/teams/IMG_20230619_044152_877.jpg'
+import UTKARSHMISHRA from '../Images/teams/UTKARSH MISHRA.jpg'
 import Abhay from '../Images/teams/Abhay Kishor.jpg'
-import IMG20230929141703 from '../Images/teams/IMG20230929141703.jpg'
+import RohanAhuja from '../Images/teams/Rohan Ahuja.jpg'
 import Hardik from '../Images/teams/Hardik.jpg'
 import Vishu from '../Images/teams/Vishu Jain.jpg'
 import Adarsh from '../Images/teams/Adarsh Shukla.jpg'
-// import _203753 from '../Images/teams/media/20231002_203753.jpg'
-// import Arju from '../Images/teams/media/Arju.jpg'
-// import IMG_5153 from '../Images/teams/media/Copy of IMG_5153.jpg'
-// import second from '../Images/teams/media/Gouri Nema.jpg'
-// import second from '../Images/teams/media/Keshav Kant.jpg'
-// import second from '../Images/teams/media/Khushi CIG Media.jpg'
-// import second from '../Images/teams/media/Snapchat-1526841871.jpg'
-// import second from '../Images/teams/new/1000000658.jpg'
-// import second from '../Images/teams/new/Ms. naina.jpg'
-// import second from '../Images/teams/new/Neeraj Rathod.jpg'
-// import second from '../Images/teams/new/PriyanshuSingh.jpg'
-// import second from '../Images/teams/new/Punam.jpg'
-// import second from '../Images/teams/new/Rhydem kumar.jpg'
-// import second from '../Images/teams/new/Sandeep Roy.jpg'
-
-
+import Arju from '../Images/teams/media/Arju.jpg'
+import SARTHAKBHADANGE from '../Images/teams/media/SARTHAK  BHADANGE.jpg'
+import PrachiKabir from '../Images/teams/Prachi Kabir.jpg'
+import AnshRastogi from '../Images/teams/Ansh Rastogi.jpg'
+import KashishVerma from '../Images/teams/media/Kashish Verma.jpg'
+import Abhaykumar from '../Images/teams/media/Abhay kumar.jpg'
+import Krutiman from '../Images/teams/media/Krutiman CIG Media.jpg'
+import GouriNema from '../Images/teams/media/Gouri Nema.jpg'
+import naina from '../Images/teams/new/Ms. naina.jpg'
+import NeerajRathod from '../Images/teams/new/Neeraj Rathod.jpg'
+import PriyanshuSingh from '../Images/teams/new/PriyanshuSingh.jpg'
+import PoojanPadhiyar from '../Images/teams/new/Poojan Padhiyar.jpg'
+import Rhydem from '../Images/teams/new/Rhydem kumar.jpg'
+import Sandeep from '../Images/teams/new/Sandeep Roy.jpg'
+import Sneha from '../Images/teams/new/Sneha Das.png'
+import TEJUSADITYA from '../Images/teams/new/TEJUS ADITYA .jpg'
+import KeshavKant from '../Images/teams/media/Keshav Kant.jpg'
+import Jyoti from '../Images/teams/Jyoti.jpg'
 
 
 const Data = [
 
     {
-        "id": "1",
-        "category":"web-developer",
-        "title": "Prachi Singh",
-        "urlImg": prachi
-    },
-    {
         "id": "2",
-        "category":"web-developer",
+        "category": "web-developer",
         "title": "Ganesh Prajapati",
         "urlImg": Ganesh
     },
     {
         "id": "3",
-        "category":"web-developer",
+        "category": "web-developer",
         "title": "Ayush Goyal",
         "urlImg": Ayush
     },
     {
         "id": "4",
-        "category":"web-developer",
+        "category": "web-developer",
         "title": "Sweety",
         "urlImg": Sweety
     },
     {
         "id": "5",
-        "category":"Content",
+        "category": "Content",
         "title": "Bhavdeep",
-        "description": "this the most famous movie which is earn more then 500cr",
+
         "urlImg": Bhavdeep
     },
 
 
     {
         "id": "6",
-        "category":"Content",
-        "title": "  t20 cricket",
-        "description": "Virat kohli has been complited 100 centurys",
-        "urlImg": IMG_8748
+        "category": "Content",
+        "title": "Divyansh",
+
+        "urlImg": Divyansh
     },
     {
         "id": "7",
-        "category":"Content",
+        "category": "Content",
         "title": "  Karan",
-        "description": "Virat kohli has been complited 100 centurys",
+
         "urlImg": Karan
     },
     {
         "id": "8",
-        "category":"Event",
+        "category": "Event",
         "title": "Shivam Bhandari",
-        "description": "Virat kohli has been complited 100 centurys",
-        "urlImg":Bhandari
+
+        "urlImg": Bhandari
     },
     {
         "id": "9",
-        "category":"Event",
+        "category": "Event",
         "title": "Swaraj",
-        "description": "Virat kohli has been complited 100 centurys",
-        "urlImg":Swaraj
+
+        "urlImg": Swaraj
     }
     ,
     {
         "id": "10",
-        "category":"Event",
+        "category": "Event",
         "title": "Akhilesh",
-        "description": "Virat kohli has been complited 100 centurys",
+
         "urlImg": Akhilesh
     },
 
     {
         "id": "11",
-        "category":"Event",
+        "category": "Event",
         "title": "  Pratik",
-        "description": "Virat kohli has been complited 100 centurys",
+
         "urlImg": Pratik
     },
     {
         "id": "12",
-        "category":"Event",
+        "category": "Event",
         "title": "  Abhay Kishor",
-        "description": "Virat kohli has been complited 100 centurys",
+
         "urlImg": Abhay
     },
     {
-        "id": "12",
-        "category":"Event",
+        "id": "13",
+        "category": "Event",
         "title": "  Adarsh Shukla",
-        "description": "Virat kohli has been complited 100 centurys",
-        "urlImg":Adarsh
+
+        "urlImg": Adarsh
     },
-{
-    "id": "13",
-    "category":"Event",
-    "title": "  Vishu Jain",
-    "description": "Virat kohli has been complited 100 centurys",
-    "urlImg": Vishu
-}
-,
-{
-    "id": "14",
-    "category":"Event",
-    "title": "  Hardik",
-    "description": "Virat kohli has been complited 100 centurys",
-    "urlImg":Hardik
-}
-,
-{
-    "id": "15",
-    "category":"Event",
-    "title": "  Sachal Kumar",
-    "description": "Virat kohli has been complited 100 centurys",
-    "urlImg":Sachal
-}
-,
-{
-    "id": "16",
-    "category":"Event",
-    "title": "  IMG_20230619_044152_877",
-    "description": "Virat kohli has been complited 100 centurys",
-    "urlImg": IMG_20230619_044152_877
-},
-{
-    "id": "17",
-    "category":"Event",
-    "title": "  IMG_20230619_044152_877",
-    "description": "Virat kohli has been complited 100 centurys",
-    "urlImg": IMG20230929141703
-}
+    {
+        "id": "14",
+        "category": "Event",
+        "title": "  Vishu Jain",
+
+        "urlImg": Vishu
+    }
+    ,
+    {
+        "id": "15",
+        "category": "Event",
+        "title": "  Hardik",
+
+        "urlImg": Hardik
+    }
+    ,
+    {
+        "id": "16",
+        "category": "Event",
+        "title": "  Sachal Kumar",
+
+        "urlImg": Sachal
+    }
+    ,
+    {
+        "id": "17",
+        "category": "Event",
+        "title": "  UTKARSH MISHRA",
+
+        "urlImg": UTKARSHMISHRA
+    },
+    {
+        "id": "36",
+        "category": "Event",
+        "title": "Jyoti",
+
+        "urlImg": Jyoti
+    },
+    {
+        "id": "18",
+        "category": "Event",
+        "title": "Rohan Ahuja",
+
+        "urlImg": RohanAhuja
+    },
+    {
+        "id": "19",
+        "category": "Content",
+        "title": "Prachi Kabir",
+
+        "urlImg": PrachiKabir
+    },
+    {
+        "id": "20",
+        "category": "Event",
+        "title": "Ansh Rastogi",
+
+        "urlImg": AnshRastogi
+    }
+    ,
+    {
+        "id": "21",
+        "category": "Media",
+        "title": "Kashish Verma",
+
+        "urlImg": KashishVerma
+    }
+    ,
+    {
+        "id": "22",
+        "category": "Media",
+        "title": "Abhay kumar",
+
+        "urlImg": Abhaykumar
+    }
+    ,
+    {
+        "id": "23",
+        "category": "Media",
+        "title": "Krutiman",
+
+        "urlImg": Krutiman
+    }
+    ,
+    {
+        "id": "35",
+        "category": "Media",
+        "title": " Keshav Kant",
+
+        "urlImg":  KeshavKant
+    }
+   
+    ,
+    {
+        "id": "24",
+        "category": "Media",
+        "title": "Arju",
+
+        "urlImg": Arju
+    }
+
+    ,
+    {
+        "id": "25",
+        "category": "Media",
+        "title": "SARTHAK BHADANGE",
+
+        "urlImg": SARTHAKBHADANGE
+    }
+    ,
+    {
+        "id": "26",
+        "category": "Media",
+        "title": "Gouri Nema",
+
+        "urlImg": GouriNema
+    }
+
+    ,
+    {
+        "id": "27",
+        "category": "New Connections",
+        "title": "Ms. naina",
+
+        "urlImg": naina
+    },
+    {
+        "id": "28",
+        "category": "New Connections",
+        "title": "Neeraj Rathod",
+
+        "urlImg": NeerajRathod
+    }
+    , {
+        "id": "29",
+        "category": "New Connections",
+        "title": "Priyanshu Singh",
+
+        "urlImg": PriyanshuSingh
+    },
+    {
+        "id": "30",
+        "category": "New Connections",
+        "title": "Poojan Padhiyar",
+
+        "urlImg": PoojanPadhiyar
+    }
+    ,
+    {
+        "id": "31",
+        "category": "New Connections",
+        "title": "Rhydem kumar",
+
+        "urlImg": Rhydem
+    }
+    ,
+    {
+        "id": "32",
+        "category": "New Connections",
+        "title": "TEJUS ADITYA",
+
+        "urlImg": TEJUSADITYA
+    }
+    ,
+    {
+        "id": "33",
+        "category": "New Connections",
+        "title": "Sneha Das",
+
+        "urlImg": Sneha
+    }
+    ,
+    {
+        "id": "34",
+        "category": "New Connections",
+        "title": "Sandeep Roy",
+
+        "urlImg": Sandeep
+    }
 ]
 
 export default Data

@@ -1,6 +1,6 @@
 import React from 'react'
-import AmanVishwakarma from '../Images/Aman Vishwakarma.png'
-import OmprakashKuldeep from '../Images/Omprakash Kuldeep.png'
+import Hardik from '../Images/teams/3y/Hardik.jpg'
+import Chinmay from '../Images/teams/3y/Chinmay.jpg'
 import './Student.css'
 
 function Student() {
@@ -12,7 +12,7 @@ function Student() {
                         StudentData.map((S) => (
                             <article className="profileB my-3">
                                 <div className="profile-imageB">
-                                    <img src={S.Img} />
+                                    <img src={S.Img} alt='' />
                                 </div>
                                 <h2 className="profile-usernameB">{S.Name}</h2>
                                 <small className="profile-user-handleB">{S.position}</small>
@@ -28,14 +28,14 @@ function Student() {
 }
 const StudentData = [
     {
-        Name: "Aman Vishwakarma",
+        Name: "Hardik",
         position: "Chairperson",
-        Img: AmanVishwakarma,
+        Img: Hardik,
     },
     {
-        Name: "Omprakash Kuldeep",
+        Name: "Chinmay Nagpal",
         position: "Vice-Chairperson",
-        Img: OmprakashKuldeep,
+        Img: Chinmay,
     }
 ]
 

@@ -13,7 +13,7 @@ function Administrative() {
                         AdministrativeData.map((A) => (
                             <article className="profileA my-3">
                                 <div className="profile-imageA">
-                                    <img src={A.Img} />
+                                    <img src={A.Img} alt='' />
                                 </div>
                                 <h2 className="profile-usernameA">{A.Name}</h2>
                                 <small className="profile-user-handleA">{A.position}</small>

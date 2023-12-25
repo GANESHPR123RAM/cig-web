@@ -90,65 +90,20 @@
         height: 70vh;
     }
     
-    .Boxcontainer {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        padding: 10% 5% 5% 5%;
-        gap: 1%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .BoxCol1 {
-        width: 45%;
-        height: 85%;
-    }
-    
-    .BoxCol2 {
-        width: 44%;
-        height: 85%;
-        right: 0%;
-    
-    }
-    
-    .aboutbg1 {
-        width: 90%;
-        height: 90%;
-        margin-left: 10%;
-    
-    }
     
     .titleline {
-        color: #3C4DC2;
-        font-family: Inter;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 121.687%;
-        /* 48.675px */
+        font-size: 32px;
+        line-height: 100.687%;
     }
     
     .titlecomp {
-        color: #323232;
-        font-family: Inter;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 135%;
-        /* 27px */
-        text-transform: uppercase;
+        font-size: 16px;
+        line-height: 125%;
     }
     
     .containt {
-        color: #595B5F;
-        font-family: Inter;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 135%;
-        /* 24.3px */
+        font-size: 15px;
+        line-height: 125%;
     }
     .aboutpage2{
         width: 99vw;
