@@ -12,17 +12,16 @@ function Page1() {
             <p><strong>Bridging the gap between<br />
               Corporate and Academia</strong>
             </p>
-          </div>
-          <div className="containtpage1">
-            <p >
+            <p className="containtpage1">
               By providing a platform for academia and<br />
               industry to interact. CIG proffers to<br />
               <strong> Connect | Collaborate | Innovate.</strong>
             </p>
+
+            <Link to="https://www.linkedin.com/company/corporate-interactions-group/">
+              <button type="button" class="btn btn-primary btncomponent my-4">Let’s Collaborate</button>
+            </Link>
           </div>
-          <Link to="https://www.linkedin.com/company/corporate-interactions-group/">
-            <button type="button" class="btn btn-primary btncomponent my-4">Let’s Collaborate</button>
-          </Link>
         </div>
         <div className="col2page1">
           <img className='page1bg' src={home_bg_2} alt='homepagebg' />

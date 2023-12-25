@@ -15,7 +15,7 @@
     width: 99vw;
     height: 60vh;
     padding: 2vh 2vw 2vh 2vw;
-
+  
 }
 
 .textdiv {
@@ -26,13 +26,18 @@
 }
 
 @media (max-width:500px) {
-    .carouselbox {
-        height: 80vh;
+    /* .carouselbox {
+        height: 60vh;
+    } */
+    .collab{
+        height: 50vmax;
     }
 }
 
-@media (max-width:1024px) and (max-height:1366) {
-    .carouselbox {
-        height: 70vh;
+@media (max-width:1024px) {
+ 
+    .containtcarousel{
+        font-size: 0.5vmax;
+        overflow: scroll;
     }
 }

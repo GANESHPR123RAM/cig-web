@@ -12,7 +12,7 @@ function Homepage() {
       <Page2 />
       <Page3 />
       <div id="col" className='collab'>
-      <div className='text-center mb-3 textdiv '><strong>Successful Collaborations</strong> </div>
+        <div className='text-center  mb-3 textdiv 'style={{fontSize:'2vmax'}}><strong>Successful Collaborations</strong> </div>
         <Collab />
       </div>
       <div className="carouselbox">

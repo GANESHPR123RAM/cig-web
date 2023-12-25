@@ -36,7 +36,7 @@
 .titleline {
     color: #3C4DC2;
     font-family: Inter;
-    font-size: 40px;
+    font-size: 2vmax;
     font-style: normal;
     font-weight: 600;
     line-height: 121.687%;
@@ -46,7 +46,7 @@
 .titlecomp {
     color: #323232;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 1vmax;
     font-style: normal;
     font-weight: 700;
     line-height: 135%;
@@ -88,14 +88,30 @@
     .page1box {
         width: 99vw;
         height: 70vh;
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+        justify-content: center; 
+       
     }
     
-    
+    .BoxCol2{
+        display: none;
+    }
     .titleline {
         font-size: 32px;
         line-height: 100.687%;
     }
-    
+   .BoxCol1{
+    width: 100%;
+   }
+    .textcomponent{
+        text-align: center;
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+        justify-content: center;
+    }
     .titlecomp {
         font-size: 16px;
         line-height: 125%;
