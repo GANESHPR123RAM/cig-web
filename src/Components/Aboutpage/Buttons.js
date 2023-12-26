@@ -5,7 +5,7 @@ import data from './Data'
 function Buttons({menuItems ,filterItems, setItems}) {
   return (
     <>
-    <div class="d-flex justify-content-center mb-2">
+    <div class="buttonBox">
       {
         menuItems.map(d => (
           <button type="button" class="btn btn-outline-primary text-black p-1 px-2 mx-5 btn fw-bold"

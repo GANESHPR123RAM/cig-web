@@ -22,19 +22,17 @@ import img1 from '../Images/depimg.jpg'
 function Departments() {
     return (
         <div className="cardbox">
-
-            <h2 className='text-center'><strong>Department</strong></h2>
             <div className="row">
                 {
                     list.map((L) => (
-                        <div className="cardContainer">
+                        <article className="profileC my-3 mx-3">
                             <div className="cardImg">
                                 <img className="imgdep" style={{ width: "100%" }} src={L.depImg} alt="Card" />
                             </div>
                             <div className="cardContaint">
                                 <h5 className="cardTitle"><strong>{L.dep}</strong></h5>
                             </div>
-                        </div>
+                        </article>
                     ))
                 }
             </div>

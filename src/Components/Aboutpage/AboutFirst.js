@@ -27,7 +27,7 @@ function AboutFirst() {
       <div className="underpage2">
         <div className="col1">
           <div className="imgcont1">
-            <img src={svg1} alt=''/>
+            <img src={svg1} alt='' id='imgabout'/>
             <h4>Mission</h4>
             <p>Building a stronger connection
               between academic & Industry via valuable collaborations.</p>
@@ -35,14 +35,14 @@ function AboutFirst() {
         </div>
         <div className="col1">
           <div className="imgcont1">
-            <img src={svg2} alt='' />
+            <img src={svg2} alt='' id='imgabout' />
             <h4>Vision</h4>
             <p>To make IIT Roorkee a hub of innovation, research and opportunities. </p>
           </div>
         </div>
         <div className="col1">
           <div className="imgcont1">
-            <img src={svg3} alt='' />
+            <img src={svg3} alt='' id='imgabout'/>
             <h4>Objective</h4>
             <p>Knowledge Exchange Seminars Industry Interactions Events Corporate Collaborations.</p>
           </div>
