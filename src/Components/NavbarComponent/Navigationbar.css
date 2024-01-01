@@ -1,12 +1,68 @@
-.navbar-plate{
+.navbar-plate {
     padding-left: 1%;
     position: fixed;
     z-index: 2;
     width: 100%;
 }
-.logo-component{
+
+.logo-component {
     padding-left: 2%;
 }
-.responsive-button{
+
+.responsive-button {
     padding-right: 2%;
+}
+.Hamburger {
+    width: 99vw;
+    height: 100vh;
+    /* background-color: rgba(255, 228, 196, 0.774); */
+    opacity: 0.6;
+    position: absolute;
+    z-index: 5;
+}
+
+.HamburgerMenu {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(0, 0, 255);
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    /* position: absolute;
+    z-index: 6; */
+}
+
+.NavPage {
+    padding: 20vh 0 20vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font: bold;
+    font-size: 25px;
+    color:#ffffff;
+    width: 90%;
+    height: 100%;
+}
+.closenav{
+    background-color: rgb(0, 0, 255);
+    color: #ffffff;
+    font-size: 35px;
+    font-weight:bolder;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    border: 0;
+}
+@media (max-width: 500px) {
+    .closenav{
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    .NavPage {
+        font-size: 16px;
+     
+    }
 }

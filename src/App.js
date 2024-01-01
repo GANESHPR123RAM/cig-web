@@ -7,7 +7,7 @@ import AboutUs from './Components/Aboutpage/AboutUs.js'
 import IndexResourcesc from './Components/resources/IndexResourcesc.js'
 // import ContactUs from './Components/ContactUs/ContactUs.js'
 import Event from './Components/Event/Event.js'
-import NavPage from './Components/NavbarComponent/NavPage.js'
+
 
 
 import React from "react";
@@ -29,9 +29,6 @@ function App() {
         </React.Fragment>
         <Routes>
           <Route path='/' element={< Navigate to='Home' />}>
-          </Route>
-          
-          <Route path='/NavPage' element={<NavPage />}>
           </Route>
           <Route path='/Home' element={<Homepage />}>
           </Route>
