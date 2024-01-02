@@ -21,7 +21,7 @@ function Navigationbar() {
             {/* <Link className="nav-item nav-link active" onClick={closeHamburger} to="/Contact">Contact <span className="sr-only"></span></Link> */}
             <Link className="nav-item nav-link active" onClick={closeHamburger} to="https://medium.com/@cig_59196">Blog <span className="sr-only"></span></Link>
           </div>
-          <button onClick={closeHamburger} className='closenav'><i class="fa fa-times" aria-hidden="true"></i></button>
+          <button onClick={closeHamburger} className='closenav mx-2'><i class="fa fa-times" aria-hidden="true"></i></button>
         </div>
       </div>
     );
@@ -35,7 +35,7 @@ function Navigationbar() {
           <img className='logo' src={logo} alt='logo' />
         </div>
         {/* <Link to="/NavPage"> */}
-        <button className="navbar-toggler responsive-button" onClick={() => setHamburgerManu(true)} type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-toggler responsive-button mx-3" onClick={() => setHamburgerManu(true)} type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         {/* </Link> */}
