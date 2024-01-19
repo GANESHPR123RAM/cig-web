@@ -21,23 +21,41 @@ import img1 from '../Images/depimg.jpg'
 
 function Departments() {
     return (
-        <div className="cardbox">
-            <div className="row">
-                {
-                    list.map((L) => (
-                        <article className="profileC my-3 mx-3">
-                            <div className="cardImg">
-                                <img className="imgdep" style={{ width: "100%" }} src={L.depImg} alt="Card" />
-                            </div>
-                            <div className="cardContaint">
-                                <h5 className="cardTitle"><strong>{L.dep}</strong></h5>
-                            </div>
-                        </article>
-                    ))
-                }
-            </div>
+        // <div className="cardbox">
+        //     <div className="row">
+        //         {
+        //             list.map((L) => (
+        //                 <article className="profileC my-3 mx-3">
+        //                     <div className="cardImg">
+        //                         <img className="imgdep" style={{ width: "100%" }} src={L.depImg} alt="Card" />
+        //                     </div>
+        //                     <div className="cardContaint">
+        //                         <h5 className="cardTitle"><strong>{L.dep}</strong></h5>
+        //                     </div>
+        //                 </article>
+        //             ))
+        //         }
+        //     </div>
+            
 
-        </div>
+        // </div>
+                    <div className="Resourcescdep-Card-Box ">
+                    <h1>Department</h1>
+                    <div className="Resourcescdep-Box-row my-3">
+                        <div className="row  mx-3 my-5" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                            { list.map((L) => (
+                                <div class="Resourcescdep-card-Item mx-2 my-4" style={{ width: "18rem" }}>
+                                    <img class="Resourcescdep-card-img" src={L.depImg} alt="Card image cap" />
+                                    <div class="Resourcescdep-card-body">
+                                        <h5 class="card-title">{L.dep}</h5>
+                                        <small className="Resourcescdep-profile-user-position">{L.dep}</small>
+                                    </div>
+                                </div>
+                            ))
+                            }
+                        </div>
+                    </div>
+                </div>
     )
 }
 const list = [

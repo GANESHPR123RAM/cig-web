@@ -1,11 +1,6 @@
-.buttonBox{
-    width: 99vw;
-    height: 20vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.buttonBox button{
-width: 8%;
-height: 80%;
+.buttonBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }

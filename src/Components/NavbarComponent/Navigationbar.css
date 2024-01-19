@@ -1,21 +1,99 @@
+body{
+    overflow-x: hidden;
+}
+.Navbar-Box {
+    width: 100vw;
+    padding-left: 1%;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    height: 10vh;
+}
+
+.Naverbar-Box-Plate {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Navbar-logo-Box {
+    width: 10%;
+    height: 100%;
+    padding: 1%;
+}
+
+.Navbar-logo-img {
+    width: 100%;
+    height: 100%;
+}
+
+.Navbar-Item-Box {
+    width: 70%;
+    height: 100%;
+}
+
+.Navbar-Item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    Link {
+        color: #000;
+        font-family: Inter;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.Navbar-Item :hover {
+    color: #339032;
+    font-weight: 700;
+}
+@media screen and(max-width:900px){
+    .Navbar-logo-Box {
+        width: 30%;
+        height: 100%;
+    }
+}
+
+/* 
 .navbar-plate {
     padding-left: 1%;
     position: fixed;
     z-index: 2;
     width: 100%;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    height: 10vh;
+}
+.Nav-logo{
+   padding-left:5% ; 
+   img{
+    width: 70%;
+    height: 70%;
+   }
 }
 
 .logo-component {
     padding-left: 2%;
+
 }
 
 .responsive-button {
     padding-right: 2%;
 }
+
 .Hamburger {
-    width: 99vw;
+    width: 100vw;
     height: 100vh;
-    /* background-color: rgba(255, 228, 196, 0.774); */
     opacity: 0.6;
     position: absolute;
     z-index: 5;
@@ -28,8 +106,7 @@
     position: fixed;
     display: flex;
     flex-direction: row;
-    /* position: absolute;
-    z-index: 6; */
+
 }
 
 .NavPage {
@@ -41,28 +118,31 @@
     text-decoration: none;
     font: bold;
     font-size: 25px;
-    color:#ffffff;
+    color: #ffffff;
     width: 90%;
     height: 100%;
 }
-.closenav{
+
+.closenav {
     background-color: rgb(0, 0, 255);
     color: #ffffff;
     font-size: 35px;
-    font-weight:bolder;
+    font-weight: bolder;
     width: 10%;
     height: 100%;
     display: flex;
     align-items: flex-start;
     border: 0;
 }
+
 @media (max-width: 500px) {
-    .closenav{
+    .closenav {
         font-size: 16px;
         padding-top: 10px;
     }
+
     .NavPage {
         font-size: 16px;
-     
+
     }
-}
+} */

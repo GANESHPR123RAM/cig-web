@@ -6,21 +6,23 @@ import './Student.css'
 function Student() {
     return (
         <>
-            <div className="cardbox">
-                <div className="row">
-                    {
-                        StudentData.map((S) => (
-                            <article className="profileB my-3">
-                                <div className="profile-imageB">
-                                    <img src={S.Img} alt='' />
-                                </div>
-                                <h2 className="profile-usernameB">{S.Name}</h2>
-                                <small className="profile-user-handleB">{S.position}</small>
-                            </article>
-                        ))
-                    }
-                </div>
 
+            <div className="Student-Card-Box">
+                <h1>Student Body</h1>
+                <div className="Student-Box-row my-5">
+                    <div className="row  mx-3" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                        {StudentData.map((S) => (
+                            <div class="Student-card-Item">
+                                <img class="Student-card-img" src={S.Img} alt="Card image cap" />
+                                <div class="Student-card-body">
+                                    <h5 class="card-title">{S.Name}</h5>
+                                    <small className="Student-profile-user-position">{S.position}</small>
+                                </div>
+                            </div>
+                        ))
+                        }
+                    </div>
+                </div>
             </div>
 
         </>

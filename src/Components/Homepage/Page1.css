@@ -1,44 +1,101 @@
-.HomepageContainer {
-  width: 99vw;
-  height: 100vh;
-  display: flex;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+  margin: 0%;
+  padding: 0%;
 }
 
-.col1page1 {
-  width: 70vw;
-  height: 100vh;
+.HomepageContainer {
+  width: 100vw;
+  height: 108vh;
+  display: flex;
+  padding-top: 8vh;
+}
+.HomepageContainerBox{
+  width: 100%;
+  height: 100%;
+}
+.Homepage-col1page1 {
+  width: 70%;
+  height: 100%;
   position: absolute;
   z-index: 1;
-  padding: 30vh 8vw;
-
+  padding: 5% 7%;
 }
 
-.headingpage1 {
-
-  color: #3C4DC2;
-  font-family: Roboto;
-  font-size: 2vmax;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 121.687%;
-  width: 54vw;
-  height: 15vh;
+.Homepage-headingpage1 {
+width: 100%;
+  height: 15%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding-top: 10vh;
+
+  a {
+    text-decoration: none;
+  }
 }
 
-.containtpage1 {
+.Homepage-containtpage1 {
+  color: #3C4DC2;
+  font-family: Roboto;
+  font-size: 3vmax;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 121.687%;
+
+  h1 {
+    color: #167c06;
+    font-family: Roboto;
+    font-size: 3vmax;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 121.687%;
+    display: inline;
+  }
+}
+
+.Homepage-containtpage2 {
   color: #595B5F;
   font-family: Inter;
-  font-size: 1vmax;
+  font-size: 1.5vmax;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 135%;
+
+  /* 37.8px */
+  strong {
+    color: #323232;
+    font-family: Inter;
+    font-size: 1.5vmax;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135%;
+    /* 37.8px */
+    text-transform: uppercase;
+  }
 }
 
-.col2page1 {
-  width: 99vw;
+.HomepageBTN {
+  border-radius: 4px;
+  background: #3C4DC2;
+  display: flex;
+  padding: 14px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  border: 0;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 121.687%;
+  /* 21.904px */
+  margin-top: 7%;
+}
+
+.Homepage-col2page1 {
+  width: 100vw;
   height: 100vh;
   position: absolute;
   z-index: 0;
@@ -48,71 +105,155 @@
   width: 100%;
   height: 100%;
 }
-@media (max-width:1024px) {
-  .HomepageContainer{
-    width: 99vw;
-    height: 70vh;
+/* @media screen and (max-width:900px){
+  .Homepage-col1page1 {
+    padding: 15% 7%;
   }
-  .col1page1{
-    width: 70vw;
-    height: 70vh;
-    padding: 20vh 8vw;
-   
+} */
+
+@media screen and (max-width:680px) {
+   .HomepageContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+  }
+  .HomepageContainerBox{
+    width: 100%;
+    height: 100%;
+  }
+  .Homepage-col1page1 {
+    width: 80%;
+    height: 60%;
+  }
+
+  .Homepage-col2page1 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .Homepage-headingpage1 {
+    width: 100%;
+    height: 12%;
+  } 
+
+  .Homepage-containtpage1 {
+    font-size: 4vmax;
+
+    h1 {
+      font-size: 4vmax;
+    }
+  } 
+
+  .Homepage-containtpage2 {
+    font-size: 2vmax;
+
+    strong {
+      font-size: 2vmax;
+    }
+  } 
+
+  .HomepageBTN {
+    padding: 1.5vmax 2.5vmax;
+    font-family: Inter;
+    font-size: 1.5vmax;
+  }
+  .Homepage-headingpage1 {
+    
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+    a {
+      text-decoration: none;
+    }
+  } 
+}
+
+@media screen and (max-width:430px) {
+
+  .Homepage-containtpage1 {
+    font-size: 3vmax;
+
+    h1 {
+      font-size: 3vmax;
+    }
+  }
+
+  .Homepage-containtpage2 {
+    font-size: 1.5vmax;
+
+    strong {
+      font-size: 1.5vmax;
+    }
+  }
+} 
+
+@media screen and(max-width:400px) {
+  .Homepage-containtpage1 {
+    font-size: 1.5vmax;
+
+    h1 {
+      font-size: 1.5vmax;
+    }
+  }
+
+  .Homepage-containtpage2 {
+    font-size: 1vmax;
+
+    strong {
+      font-size: 1vmax;
+    }
+  }
+  .Homepage-col1page1 {
+    width: 100%;
   }
   
-.headingpage1 {
-  width: 54vw;
-  height: 10vh;
-
 }
 
+/* @media screen and (max-width:320px) {
 
-.col2page1 {
-  width: 99vw;
-  height: 70vh;
-}
+  .Homepage-containtpage1 {
+    font-size: 2vmax;
 
-.page1bg {
-  width: 100%;
-  height: 100%;
-}
-.btncomponent{
-  font-size: 1vmax;
-}
-  
-}
-
-@media (max-width:500px) {
-
-  
-.headingpage1 {
-  height: 15vh;
-  line-height: 100%;
-}
-
-}
-
-@media (max-width:450px) {
-  .HomepageContainer{
-    width: 99vw;
-    height:50vh;
+    h1 {
+      font-size: 2vmax;
+    }
   }
-  .col1page1{
-    width: 70vw;
-    height: 50vh;
-    padding: 12vh 8vw;
 
+  .Homepage-containtpage2 {
+    font-size: 1vmax;
+
+    strong {
+      font-size: 1vmax;
+    }
   }
-  
-.headingpage1 {
-  width: 54vw;
-  height: 10vh;
-  font-weight: 500;
-  line-height: 100%;
-}
+}  */
+/* 
+@media screen and (max-width:488px) {
 
-.col2page1 {
-  width: 99vw;
-  height: 50vh;
-}
-}
+  .Homepage-containtpage1 {
+    font-size: 1.6vmax;
+
+    h1 {
+      font-size: 1.6vmax;
+    }
+  }
+
+  .Homepage-containtpage2 {
+    font-size: 1vmax;
+
+    strong {
+      font-size: 1vmax;
+    }
+  }
+
+  .HomepageBTN {
+    padding: 1vmax 2vmax;
+    font-family: Inter;
+    font-size: 1vmax;
+  }
+} */
+
+
+

@@ -60,7 +60,7 @@ function ContactUs() {
                             </div>
                         </div>
                     </div>
-                    {/* <div className="BoxRight">
+                    <div className="BoxRight">
                         <div className="contactright">
                             <h4>Contact Us</h4>
                             <div>
@@ -104,7 +104,7 @@ function ContactUs() {
                                 </form>
                             </div>
                         </div> 
-                    </div>*/}
+                    </div>
                 </div>
             </div>
         </div>

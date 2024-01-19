@@ -1,0 +1,39 @@
+.groupsDatam {
+    width: 99vw;
+    height: 90vh;
+    margin: 100px 0 0 0;
+
+}
+
+.cardBox {
+    width: 100%;
+    height: 80vh;
+    /* display: flex;
+    flex-direction: row;
+    align-items: center; */
+    /* justify-content: space-around; */
+}
+
+.cardGm {
+    width: 20%;
+    height: 80%;
+}
+.cardGm img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+   margin: 0 25% 0 25%;
+}
+.cardGm h6{
+    width: 100%;
+    height: 6%;
+    text-align: center;
+}
+.cardGm p{
+    width: 100%;
+    height: 40%;
+    overflow-y: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
