@@ -1,21 +1,10 @@
-.container-homepage {
-    width: 100vw;
-    position: absolute;
-    z-index: -1;
-    text-decoration: none;
-}
-
-.carouselbox {
-    width: 99vw;
-    height: 100vh;
-    background-color: rgb(196, 192, 187);
-}
-
+ body{
+    overflow-x: hidden;
+ }
 .collab {
-    width: 99vw;
+    width: 100vw;
     height: 60vh;
-    padding: 2vh 2vw 2vh 2vw;
-  
+    padding: 2vh 2vw 2vh 2vw; 
 }
 
 .textdiv {
@@ -31,13 +20,5 @@
     } */
     .collab{
         height: 50vmax;
-    }
-}
-
-@media (max-width:1024px) {
- 
-    .containtcarousel{
-        font-size: 0.5vmax;
-      
     }
 }

@@ -8,27 +8,26 @@ import SrishtiAnand from '../Images/teams/3y/Srishti Anand.jpg'
 import AkankshaKushwaha from '../Images/teams/3y/Akanksha Kushwaha.jpg'
 
 function HeadOf() {
-  return (
-    <>
-    <div className="cardbox">
-        <div className="row">
-            {
-                StudentData.map((S) => (
-                    <article className="profileB my-3 mx-3">
-                        <div className="profile-imageB">
-                            <img src={S.Img} alt='' />
-                        </div>
-                        <h2 className="profile-usernameB">{S.Name}</h2>
-                        <small className="profile-user-handleB">{S.position}</small>
-                    </article>
-                ))
-            }
-        </div>
-
-    </div>
-
-</>
-  )
+    return (
+        <>
+            <div className="HeadOf-Card-Box">
+                <div className="HeadOf-Box-row">
+                    <div className="row my-2 mx-3" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                        {StudentData.map((S) => (
+                            <div class="HeadOf-card-Item">
+                                <img class="HeadOf-card-img" src={S.Img} alt="Card image cap" />
+                                <div class="HeadOf-card-body">
+                                    <h5 class="card-title">{S.Name}</h5>
+                                    <small className="HeadOf-profile-user-position">{S.position}</small>
+                                </div>
+                            </div>
+                        ))
+                        }
+                    </div>
+                </div>
+            </div>
+        </>
+    )
 }
 const StudentData = [
     {

@@ -8,14 +8,14 @@ function Buttons({menuItems ,filterItems, setItems}) {
     <div class="buttonBox" style={{display:'flex',alignItems:'center',justifyContent:'center',flexWrap:'wrap'}}>
       {
         menuItems.map(d => (
-          <button type="button" class="btn btn-outline-primary text-black p-1 px-2 mx-2 my-2 btn fw-bold"
+          <button type="button" class="btn btn-primary mx-2 my-2" style={{boxShadow:'0px 4px 12px 0px rgba(0, 0, 0, 0.25)', textAlign: 'center',}}
           onClick={()=>filterItems(d)}
           >
             {d}
           </button>
         ))
       }
-      <button type="button" class="btn btn-outline-primary text-black p-1 px-2 mx-5 btn fw-bold"
+      <button type="button" class="btn btn-primary mx-2 my-2" style={{ boxShadow:'0px 4px 12px 0px rgba(0, 0, 0, 0.25)',textAlign: 'center',}}
       onClick={()=>setItems(data)}
       >
         All

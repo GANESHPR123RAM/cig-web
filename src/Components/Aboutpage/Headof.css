@@ -1,0 +1,126 @@
+
+
+.HeadOf-Card-Box {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 0 5% 2.5% 5%;
+}
+
+.HeadOf-Box-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+
+.HeadOf-card-Item {
+	box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
+	width: 261.862px;
+	height: 293.862px;
+	border-radius: 16px;
+	flex-shrink: 0;
+	background-image: url('C:\Users\ganes\OneDrive\Desktop\CIG\cig-web\src\Components\Images\CardBg.svg');
+	background-size: 100% 100%;
+	display: flex;
+	align-items: center;
+	/* justify-content: center; */
+	flex-direction: column;
+	padding: 2%;
+	margin: 16px;
+}
+
+.HeadOf-card-img {
+	width: 100px;
+	height: 100px;
+	flex-shrink: 0;
+	border-radius: 50%;
+}
+
+.HeadOf-card-body {
+	padding-top: 5%;
+	width: 190px;
+	height: 100px;
+	flex-shrink: 0;
+	text-align: center;
+	color: #000;
+	text-align: center;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	h5 {
+		color: #000;
+		text-align: center;
+		font-family: Inter;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		padding-bottom:2% ;
+	}
+
+	small {
+		color: #000;
+		text-align: center;
+		font-family: Inter;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: normal;
+	}
+}
+@media screen and (max-width: 800px) {
+	.HeadOf-card-Item {
+		width: 197px;
+		height: 220px;
+	}
+
+	.HeadOf-card-body {
+		width: 190px;
+		height: 100px;
+	}
+}
+
+@media screen and (max-width:550px) {
+	.HeadOf-card-Item {
+		width: 120px;
+		height: 135px;
+		margin: 10px;
+	}
+
+	.HeadOf-card-body {
+		width: 100px;
+		height: 100px;
+
+	}
+
+	.HeadOf-card-img {
+		width: 70px;
+		height: 70px;
+		flex-shrink: 0;
+		border-radius: 50%;
+	}
+
+	.HeadOf-card-body {
+		width: 120px;
+		height: 50px;
+
+		h5 {
+			font-size: 12px;
+
+		}
+		small {
+			font-size: 8px;
+		}
+	}
+}
+

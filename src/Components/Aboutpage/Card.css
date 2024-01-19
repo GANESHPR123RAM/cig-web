@@ -1,80 +1,150 @@
-.cardbox{
-    width: 100%;
-    /* height: 100%; */
-    padding-left: 10%;
-    padding-right: 10%;
-    display: flex;
-    flex-direction: column;
-   }
-   .row{
-       display: flex;
-       align-items: center;
-       justify-content: space-evenly;
-   }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+.Vartical-Card-Box {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 5%;
+}
 
+.Vertical-Box-row {
+	width: 100%;
+	padding: 0 2% 0 2%;
 
+}
 
-.profileC {
+.Vertical-BTN-Box {
+	width: 100%;
 	display: flex;
 	align-items: center;
-	flex-direction: column;
-	padding: 3rem;
-	width: 90%;
-	height: 0vh;
-	max-width: 300px;
-	background-color: #1b2028;
+	justify-content: space-evenly;
+}
+
+.Vertical-Box-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
 	border-radius: 16px;
-	position: relative;
-	border: 3px solid transparent;
-	background-clip: padding-box;
-	text-align: center;
-	color: #f1f3f3;
-	background-image: linear-gradient(
-		135deg,
-		rgba(#752e7c, 0.35),
-		rgba(#734a58, 0.1) 15%,
-		#1b2028 20%,
-		#1b2028 100%
-	);
-	&:after {
-		content: "";
-		display: block;
-		top: -3px;
-		left: -3px;
-		bottom: -3px;
-		right: -3px;
-		z-index: -1;
-		position: absolute;
-		border-radius: 16px;
-		background-image: linear-gradient(
-			135deg,
-			#752e7c,
-			#734a58 20%,
-			#1b2028 30%,
-			#2c333e 100%
-		);
-	}
+	background: #FFF;
+	box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
+	flex-direction: column;
 }
 
-.profile-imageC {
+.Vertical-card-Item {
+	box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
+	width: 261.862px;
+	height: 293.862px;
+	border-radius: 16px;
+	flex-shrink: 0;
+	background-image: url('C:\Users\ganes\OneDrive\Desktop\CIG\cig-web\src\Components\Images\CardBg.svg');
+	background-size: 100% 100%;
+	display: flex;
+	align-items: center;
+	/* justify-content: center; */
+	flex-direction: column;
+	padding: 2%;
+	margin: 16px;
+}
+
+.Vertical-card-img {
+	width: 100px;
+	height: 100px;
+	flex-shrink: 0;
 	border-radius: 50%;
-	overflow: hidden;
-	width: 175px;
-	height: 175px;
-	position: relative;
-	img {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		width: 100%;
-		height: 100%;
+}
+
+.Vertical-card-body {
+	padding-top: 5%;
+	width: 190px;
+	height: 100px;
+	flex-shrink: 0;
+	text-align: center;
+	color: #000;
+	text-align: center;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	h5 {
+		color: #000;
+		text-align: center;
+		font-family: Inter;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		padding-bottom: 2%;
+	}
+
+}
+
+@media screen and (max-width:800px) {
+	.Vertical-card-Item {
+		width: 120px;
+		height: 135px;
+	}
+
+	.Vertical-card-body {
+		width: 100px;
+		height: 100px;
+
+	}
+
+	.Vertical-card-img {
+		width: 70px;
+		height: 70px;
+		flex-shrink: 0;
+		border-radius: 50%;
+	}
+
+	.Vertical-card-body {
+		width: 120px;
+		height: 50px;
+
+		h5 {
+			font-size: 12px;
+
+		}
 	}
 }
 
-.profile-usernameC {
-	font-size: 1.5rem;
-	font-weight: 600;
-	margin-top: 1.5rem;
+@media screen and (max-width:410px) {
+
+	.Vertical-card-Item {
+		width: 100px;
+		height: 112px;
+		border-radius: 8px;
+		margin: 10px;
+	}
+
+	.Vertical-card-body {
+		width: 100px;
+		height: 100px;
+
+	}
+
+	.Vertical-card-img {
+		width: 60px;
+		height: 60px;
+		flex-shrink: 0;
+		border-radius: 50%;
+	}
+
+	.Vertical-card-body {
+		width: 90px;
+		height: 40px;
+
+		h5 {
+			font-size: 10px;
+
+		}
+	}
 }

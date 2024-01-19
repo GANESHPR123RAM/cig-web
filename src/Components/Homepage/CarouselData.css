@@ -1,4 +1,4 @@
-
+/* 
 .slide {
     width: 98.3%;
     height: 100%;
@@ -62,4 +62,213 @@
         font-size: 10px;
       } 
     
+} */
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700&family=Roboto:wght@300&display=swap');
+body{
+    overflow-x: none;
+}
+.TestimonialsHome {
+    width: 100vw;
+    height: 90vh;
+    padding: 2.5% 5% 2.5% 5%;
+    overflow-x: none;
+}
+
+.TestimonialsHomeBox {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: #F5F5F5;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.30);
+}
+
+.TestimonialsHomePlate {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.TestimonialsHomeHeading1 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: Red Hat Display;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135%;
+    color: #000000;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.TestimonialSlider {
+    width: 100%;
+    height: 90vh;
+    padding: 1%;
+
+}
+
+.TestimonialSliderBox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.testimonialimg {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testimonialimg1 {
+    width: 60%;
+    height: 100%;
+    border-radius: 24px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.30);
+}
+
+.testimonialname {
+    width: 100%;
+    height: 10vh;
+    color: var(--components-chip-defaultCloseFill, #000);
+    text-align: center;
+    font-family: Red Hat Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 135%;
+    padding-top: 2%;
+    /* 32.4px */
+}
+
+.testimonialDecription {
+    width: 70%;
+    height: 60vh;
+    color: var(--components-chip-defaultCloseFill, #000);
+    text-align: center;
+    font-family: Red Hat Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%;
+    padding: 2%;
+    /* 29px */
+}
+
+@media (max-width:1024px) {
+    
+    .TestimonialsHome {
+        width: 100vw;
+    }
+
+    .TestimonialsHomeHeading1 {
+        font-size: 30px;
+    }
+
+    .TestimonialsHomeHeading2 {
+        font-size: 20px;
+    }
+    .testimonialimg1 {
+        width: 90%;
+    }
+}
+
+@media (max-width:1280px) {
+    .TestimonialsHome {
+        width: 100vw;
+    }
+
+    .TestimonialsHomeHeading1 {
+        font-size: 35px;
+    }
+
+    .TestimonialsHomeHeading2 {
+        font-size: 24px;
+    }
+    .testimonialDecription {
+        width: 80%;
+    }
+}
+
+@media (max-width:600px) {
+
+ 
+.TestimonialsHome {
+    width: 100vw;
+    height: 80vh;
+    padding: 2.5% 5% 2.5% 5%;
+}
+    
+    .TestimonialsHomePlate {
+        height: 8vh;
+    }
+    
+    .TestimonialsHomeHeading1 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+    
+    .TestimonialSlider {
+        height: 72vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .testimonialimg {
+        width: 100%;
+        height: 28vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .testimonialimg1 {
+        width: 90%;
+        height: 80%;
+    }
+    
+    .testimonialname {
+        height: 8vh;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+    .testimonialDecription {
+        width: 100%;
+        height: 36vh;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+@media (max-width:300px) {
+
+    .TestimonialsHome {
+        height: 80vh;
+    }
+    
+    
+    .TestimonialsHomeHeading1 {
+        font-size: 22px;
+    }
+    .testimonialname {
+        font-size: 18px;
+    }
+    
+    .testimonialDecription {
+        font-size: 12px;
+    }
 }

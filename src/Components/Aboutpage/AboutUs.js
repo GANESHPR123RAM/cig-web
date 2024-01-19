@@ -18,44 +18,11 @@ function AboutUs() {
     return (
         <>
             <AboutFirst />
-            <div className="container-fluid box">
-                <div className="row">
-                    <h1 className='text-center col-12 fw-bold my-3 mb-5'>Administrative Body</h1>
-                    <div className="Cardbox">
-                        <Administrative />
-                    </div>
-                </div>
-            </div>
-            <div className="container-fluid box ">
-                <div className="row">
-                    <h1 className='text-center col-12 fw-bold my-3 mb-5'>Student Body</h1>
-                    <div className="Cardbox">
-                        <Student />
-                    </div>
-                </div>
-            </div>
-            <div className="container-fluid box ">
-                <div className="row">
-                    <div className="Cardbox">
-                        <HeadOf />
-                    </div>
-                </div>
-            </div>
-            <div className="container-fluid box">
-                <div className="row">
-                    <h1 className='text-center col-12 fw-bold my-3 mb-5'>Team-Members</h1>
-                    <div className="Cardbox">
-                        <div className="buttonbox col-12 fw-bold my-3 mb-5">
-                            <Buttons
-                                menuItems={menuItems}
-                                filterItems={filterItems}
-                                setItems={setItems}
-                            />
-                        </div>
-                        <Card item={item} />
-                    </div>
-                </div>
-            </div>
+            <Administrative />
+            <Student />
+            <HeadOf />
+            <Card item={item} />
+
         </>
     )
 }

@@ -8,16 +8,16 @@ import Collab from './collab.js'
 function Homepage() {
   return (
     <>
-      <Page1 />
-      <Page2 />
-      <Page3 />
-      <div id="col" className='collab'>
-        <div className='text-center  mb-3 textdiv 'style={{fontSize:'2vmax'}}><strong>Successful Collaborations</strong> </div>
-        <Collab />
-      </div>
-      <div className="carouselbox">
+      
+        <Page1 />
+        <Page2 />
+        <Page3 />
+        <div id="col" className='collab'>
+          <div className='text-center  mb-3 textdiv ' style={{ fontSize: '2vmax' }}><strong>Successful Collaborations</strong> </div>
+          <Collab />
+        </div>
         <CarouselData />
-      </div>
+    
     </>
   )
 }

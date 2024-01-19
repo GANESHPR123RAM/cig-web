@@ -12,7 +12,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 function CarouselData() {
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -22,24 +22,30 @@ function CarouselData() {
         cssEase: "linear"
     };
     return (
-
-        <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-            <div className="box1">
-                <h1 className='text-center my-3 ' style={{ color: 'black' }}>Featured Works</h1>
+        <div className="TestimonialsHome">
+            <div className="TestimonialsHomeBox">
+                <div className="TestimonialsHomePlate">
+                    <div className="TestimonialsHomeHeading1">
+                        Featured Works
+                    </div>
+                </div>
                 <Slider {...settings}>
-                    {
-                        data.map((d) => (
-                            <div className="cardCarousel">
-                                <div className="imgcarousel">
-                                    <img src={d.image} className='imgbox' alt='img1' />
+                    {data.map((d) => (
+                        <div className="TestimonialSlider">
+                            <div className="TestimonialSliderBox">
+                                <div className="testimonialimg">
+                                    <img src={d.image} className='testimonialimg1' alt='img1' />
                                 </div>
-                                <div className="containtcarousel">
-                                    <p style={{ color: 'red' }}>{d.heading}</p>
-                                    <p>{d.text}</p>
+                                <div className="testimonialname">
+                                    {d.heading}
+                                </div>
+                                <div className="testimonialDecription">
+                                    {d.text}
                                 </div>
                             </div>
-                        ))
-                    }
+
+                        </div>
+                    ))}
                 </Slider>
             </div>
         </div>
