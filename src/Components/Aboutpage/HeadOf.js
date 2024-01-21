@@ -15,7 +15,7 @@ function HeadOf() {
                     <div className="row my-2 mx-3" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                         {StudentData.map((S) => (
                             <div class="HeadOf-card-Item">
-                                <img class="HeadOf-card-img" src={S.Img} alt="Card image cap" />
+                                <img class="HeadOf-card-img" src={S.Img} alt="Cardcap" />
                                 <div class="HeadOf-card-body">
                                     <h5 class="card-title">{S.Name}</h5>
                                     <small className="HeadOf-profile-user-position">{S.position}</small>
