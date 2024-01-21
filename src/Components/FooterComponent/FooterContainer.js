@@ -1,7 +1,6 @@
 
 import React from 'react'
 import '../FooterComponent/footer.css'
-import { Link } from 'react-router-dom'
 import logo from '../Images/logo.svg'
 
 function FooterContainer() {
