@@ -28,7 +28,7 @@ function Card() {
             {
               item.map((d) => (
                 <div class="Vertical-card-Item" >
-                  <img class="Vertical-card-img" src={d.urlImg} alt="Card image cap" />
+                  <img class="Vertical-card-img" src={d.urlImg} alt="Cardcap" />
                   <div class="Vertical-card-body">
                     <h5 class="card-title">{d.title}</h5>
                   </div>
