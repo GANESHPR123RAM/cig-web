@@ -24,7 +24,7 @@
 	width: 261.862px;
 	height: 293.862px;
 	flex-shrink: 0;
-	background-image: url('C:\Users\ganes\OneDrive\Desktop\CIG\cig-web\src\Components\Images\CardBg.svg');
+	background-image: url('../Images/CardBg.svg');
 	background-size: 100% 100%;
 	display: flex;
 	align-items: center;
