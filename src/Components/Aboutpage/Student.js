@@ -13,7 +13,7 @@ function Student() {
                     <div className="row  mx-3" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                         {StudentData.map((S) => (
                             <div class="Student-card-Item">
-                                <img class="Student-card-img" src={S.Img} alt="Card image cap" />
+                                <img class="Student-card-img" src={S.Img} alt="Cardcap" />
                                 <div class="Student-card-body">
                                     <h5 class="card-title">{S.Name}</h5>
                                     <small className="Student-profile-user-position">{S.position}</small>
