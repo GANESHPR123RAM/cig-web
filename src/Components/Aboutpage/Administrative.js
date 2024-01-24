@@ -14,7 +14,7 @@ function Administrative() {
                     <div className="row  mx-3" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                         {AdministrativeData.map((A) => (
                             <div class="Administrative-card-Item mx-4 my-4">
-                                <img class="Administrative-card-img" src={A.Img} alt="Card image cap" />
+                                <img class="Administrative-card-img" src={A.Img} alt="Cardcap" />
                                 <div class="Administrative-card-body">
                                     <h5 class="card-title">{A.Name}</h5>
                                     <small className="Administrative-profile-user-position">{A.position}</small>

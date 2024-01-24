@@ -15,10 +15,10 @@ export class Page3 extends Component {
                         </div>
                         <div className="Home-col1page-third">
                             <h1><strong>Benefits for Academia</strong></h1>
-                            <p><img src={HomeArrow} />Access to IIT Roorkee's World-renowned resources. </p>
-                            <p><img src={HomeArrow} />Cost-effective & high-quality solutions.</p>
-                            <p><img src={HomeArrow} />Deeper and fresher solutions from academy experts.</p>
-                            <p><img src={HomeArrow} />Effective Identification of potential employees.</p>
+                            <p><img src={HomeArrow} alt=''/>Access to IIT Roorkee's World-renowned resources. </p>
+                            <p><img src={HomeArrow} alt=''/>Cost-effective & high-quality solutions.</p>
+                            <p><img src={HomeArrow} alt=''/>Deeper and fresher solutions from academy experts.</p>
+                            <p><img src={HomeArrow} alt=''/>Effective Identification of potential employees.</p>
                             <Link to='/Event'>View Resources</Link>
                         </div>
                     </div>

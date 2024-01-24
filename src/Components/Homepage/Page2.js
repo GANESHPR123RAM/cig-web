@@ -16,10 +16,10 @@ export class Page2 extends Component {
                         <div className="Home-col2page2">
                             <div className="Home-col2page2-Box">
                                 <h1><strong>Benefits for Corporate</strong></h1>
-                                <p><img src={HomeArrow} />Access to IIT Roorkee's World-renowned resources.</p>
-                                <p><img src={HomeArrow} />Cost-effective & high-quality solutions.</p>
-                                <p><img src={HomeArrow} />Deeper and fresher solutions from academy experts.</p>
-                                <p><img src={HomeArrow} />Effective Identification of potential employees.</p>
+                                <p><img src={HomeArrow} alt=''/>Access to IIT Roorkee's World-renowned resources.</p>
+                                <p><img src={HomeArrow} alt=''/>Cost-effective & high-quality solutions.</p>
+                                <p><img src={HomeArrow} alt=''/>Deeper and fresher solutions from academy experts.</p>
+                                <p><img src={HomeArrow} alt=''/>Effective Identification of potential employees.</p>
                                 <Link to='/Event'>  View Resources</Link>
                             </div>
                         </div>

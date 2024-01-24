@@ -1,7 +1,6 @@
 import React from 'react'
 import './ContactUs.css'
 import logo from '../Images/logo.svg'
-import ContactUsbg from '../Images/ContactUsbg.jpg'
 import address from '../ContactUs/svg/address.svg'
 import email from '../ContactUs/svg/email.svg'
 import phone from '../ContactUs/svg/phone.svg'
@@ -12,8 +11,8 @@ function ContactUs() {
     return (
 
         <div className="ContactUsBox">
-            <img src={ContactUsbg} alt='bg' className='contactus' />
             <div className="boxContainer">
+                <h1>Contact Us</h1>
                 <div className="contactText">
                     <p className='text-center'>
                         We would love to hear from you! If you have any questions, comments or suggestions, please feel free to get in touch with us using the contact form below.
@@ -21,13 +20,12 @@ function ContactUs() {
                     </p>
                 </div>
                 <div className="box">
-
                     <div className="BoxLeft">
                         <div className="address">
                             <div className="addressIcon">
                                 <img src={address} alt='address' />
                             </div>
-                            <div className="footerRow">
+                            <div className="Ofice-address">
                                 <p><strong>Address</strong></p>
                                 <img src={logo} alt='logo' className='ftlogo' />
                                 CORPORATE INTERACTION CLUB
@@ -35,7 +33,6 @@ function ContactUs() {
                                 Ground Floor, Student Activity Center <br />
                                 IIT Roorkee, Roorkee <br />
                                 Uttarakhand, India - 247667
-                                <img src={email} alt='email' /> <p>cig@iitr.ac.in</p>
                             </div>
                         </div>
                         <div className="email">
@@ -62,7 +59,6 @@ function ContactUs() {
                     </div>
                     <div className="BoxRight">
                         <div className="contactright">
-                            <h4>Contact Us</h4>
                             <div>
                                 <form action="/" method="POST">
                                     <div className="form">
@@ -87,6 +83,7 @@ function ContactUs() {
                                             />
                                         </div>
                                         <div className="massageBox">
+                                            <label>Message</label>
                                             <textarea
                                                 name="Message"
                                                 className="textarea"
@@ -94,9 +91,8 @@ function ContactUs() {
                                                 cols="30"
                                                 rows="6"
                                             >
-                                                Message
                                             </textarea>
-                                            <button type="submit" className="formbutton">
+                                            <button type="submit" className="formbutton my-2">
                                                 Send Message
                                             </button>
                                         </div>

@@ -15,7 +15,7 @@ function Navigationbar() {
         <div className="HamburgerMenu">
           <div className="NavPage">
             <Link className="nav-item nav-link active" onClick={closeHamburger} to="/Home">Home <span className="sr-only"></span></Link>
-            <Link className="nav-item nav-link active" onClick={closeHamburger} to="/AboutUs">About <span className="sr-only"></span></Link>
+            <Link className="nav-item nav-link active " onClick={closeHamburger} to="/AboutUs">About <span className="sr-only"></span></Link>
             <Link className="nav-item nav-link active" onClick={closeHamburger} to="/Resources">Resources <span className="sr-only"></span></Link>
             <Link className="nav-item nav-link active" onClick={closeHamburger} to="/Event">Event<span className="sr-only"></span></Link>
             <Link className="nav-item nav-link active" onClick={closeHamburger} to="/Contact">Contact <span className="sr-only"></span></Link>
@@ -30,25 +30,23 @@ function Navigationbar() {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light Navbar-Box">
-        <div className="Naverbar-Box-Plate">
-          <div className="Navbar-logo-Box">
-            <img className='Navbar-logo-img' src={logo} alt='logo' />
-          </div>
-          {/* <Link to="/NavPage"> */}
-          <button className="navbar-toggler responsive-button mx-3" onClick={() => setHamburgerManu(true)} type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          {/* </Link> */}
-          <div className=" collapse navbar-collapse Navbar-Item-Box logo-component" id="navbarNavAltMarkup">
-            <div className="Navbar-Item navbar-nav">
-              <Link className="nav-item nav-link active" to="/Home">Home <span className="sr-only"></span></Link>
-              <Link className="nav-item nav-link active" to="/AboutUs">About <span className="sr-only"></span></Link>
-              <Link className="nav-item nav-link active" to="/Resources">Resources <span className="sr-only"></span></Link>
-              <Link className="nav-item nav-link active" to="/Event">Event<span className="sr-only"></span></Link>
-              <Link className="nav-item nav-link active" to="/Contact">Contact <span className="sr-only"></span></Link>
-              <Link className="nav-item nav-link active" to="/Contact" onClick={openWindow}>Blog <span className="sr-only"></span></Link>
-            </div>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-plate">
+        <div className="logo">
+          <img className='logoImgNav' src={logo} alt='logo' />
+        </div>
+        {/* <Link to="/NavPage"> */}
+        <button className="navbar-toggler responsive-button mx-3" onClick={() => setHamburgerManu(true)} type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        {/* </Link> */}
+        <div className="collapse navbar-collapse logo-component" id="navbarNavAltMarkup">
+          <div className="navbar-nav">
+            <Link className="nav-item nav-link active mx-4" to="/Home">Home <span className="sr-only"></span></Link>
+            <Link className="nav-item nav-link active mx-4" to="/AboutUs">About <span className="sr-only"></span></Link>
+            <Link className="nav-item nav-link active mx-4" to="/Resources">Resources <span className="sr-only"></span></Link>
+            <Link className="nav-item nav-link active mx-4" to="/Event">Event<span className="sr-only"></span></Link>
+            <Link className="nav-item nav-link active mx-4" to="/Contact">Contact <span className="sr-only"></span></Link>
+            <Link className="nav-item nav-link active mx-4" to="/Contact" onClick={openWindow}>Blog <span className="sr-only"></span></Link>
           </div>
         </div>
       </nav>
@@ -60,6 +58,5 @@ function Navigationbar() {
 }
 
 export default Navigationbar
-
 
 

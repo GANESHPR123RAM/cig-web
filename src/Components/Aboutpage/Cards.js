@@ -28,7 +28,7 @@ function Card() {
             {
               item.map((d) => (
                 <div class="Vertical-card-Item" >
-                  <img class="Vertical-card-img" src={d.urlImg} alt="Card image cap" />
+                  <img class="Vertical-card-img" src={d.urlImg} alt="Cardcap" />
                   <div class="Vertical-card-body">
                     <h5 class="card-title">{d.title}</h5>
                   </div>
@@ -49,37 +49,3 @@ export default Card
 
 
 
-
-
-
-
-// import React from 'react'
-// import './Card.css'
-
-// function Card({ item }) {
-//   return (
-//     <>
-//       <div className="cardbox">
-//         <div className="row">
-//           {
-//             item.map((d) => (<>
-//               <div className="cardContainer">
-//                 <div className="cardImg">
-//                   <img className="imgdep" style={{ width: "100%" }} src={d.urlImg} alt="Card" />
-//                 </div>
-//                 <div className="cardContaint">
-//                   <h5 className="cardTitle"><strong>{d.title}</strong></h5>
-//                 </div>
-//               </div>
-//             </>
-//             ))
-//           }
-//         </div>
-
-//       </div>
-
-//     </>
-//   )
-// }
-
-// export default Card
