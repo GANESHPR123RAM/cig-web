@@ -1,7 +1,7 @@
 import React from 'react'
 import Resourcescdep from './Resourcescdep'
-import ClubCarousel from './ClubCarousel'
-import Mobileview from './mobileview'
+// import ClubCarousel from './ClubCarousel'
+
 
 function IndexResourcesc() {
   return (<>
@@ -9,7 +9,7 @@ function IndexResourcesc() {
     <Resourcescdep />
 
 
-    <ClubCarousel />
+    {/* <ClubCarousel /> */}
     {/* <Mobileview/> */}
   </>
   )

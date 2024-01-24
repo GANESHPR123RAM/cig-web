@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Card from './Cards'
 import './AboutUs.css'
 import AboutFirst from './AboutFirst'
@@ -7,6 +7,7 @@ import Student from './Student'
 import HeadOf from './HeadOf'
 
 function AboutUs() {
+
     return (
         <>
             <AboutFirst />

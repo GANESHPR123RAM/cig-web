@@ -7,14 +7,16 @@ body {
 
 .HomepageContainer {
   width: 100vw;
-  height: 108vh;
+  height: 100vh;
   display: flex;
-  padding-top: 8vh;
+  
 }
-.HomepageContainerBox{
+
+.HomepageContainerBox {
   width: 100%;
   height: 100%;
 }
+
 .Homepage-col1page1 {
   width: 70%;
   height: 100%;
@@ -24,7 +26,7 @@ body {
 }
 
 .Homepage-headingpage1 {
-width: 100%;
+  width: 100%;
   height: 15%;
   display: flex;
   flex-direction: column;
@@ -105,36 +107,19 @@ width: 100%;
   width: 100%;
   height: 100%;
 }
-/* @media screen and (max-width:900px){
-  .Homepage-col1page1 {
-    padding: 15% 7%;
-  }
-} */
+
 
 @media screen and (max-width:680px) {
-   .HomepageContainer {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-  }
-  .HomepageContainerBox{
-    width: 100%;
-    height: 100%;
-  }
-  .Homepage-col1page1 {
-    width: 80%;
-    height: 60%;
-  }
 
-  .Homepage-col2page1 {
+  .Homepage-col1page1 {
     width: 100%;
-    height: 100%;
+    height: 50%;
   }
 
   .Homepage-headingpage1 {
     width: 100%;
     height: 12%;
-  } 
+  }
 
   .Homepage-containtpage1 {
     font-size: 4vmax;
@@ -142,7 +127,7 @@ width: 100%;
     h1 {
       font-size: 4vmax;
     }
-  } 
+  }
 
   .Homepage-containtpage2 {
     font-size: 2vmax;
@@ -150,24 +135,33 @@ width: 100%;
     strong {
       font-size: 2vmax;
     }
-  } 
+  }
 
   .HomepageBTN {
     padding: 1.5vmax 2.5vmax;
     font-family: Inter;
     font-size: 1.5vmax;
   }
+
   .Homepage-headingpage1 {
-    
+
     height: 15%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-  
+
     a {
       text-decoration: none;
     }
-  } 
+  }
+  .Homepage-col2page1 {
+    display: none;
+  }
+  .HomepageContainerBox {
+    background-image: url('../Images/MobileHome.png');
+    background-size: 100vw 100vh;
+  }
+
 }
 
 @media screen and (max-width:430px) {
@@ -187,7 +181,9 @@ width: 100%;
       font-size: 1.5vmax;
     }
   }
-} 
+
+
+}
 
 @media screen and(max-width:400px) {
   .Homepage-containtpage1 {
@@ -205,55 +201,9 @@ width: 100%;
       font-size: 1vmax;
     }
   }
+
   .Homepage-col1page1 {
     width: 100%;
   }
-  
+
 }
-
-/* @media screen and (max-width:320px) {
-
-  .Homepage-containtpage1 {
-    font-size: 2vmax;
-
-    h1 {
-      font-size: 2vmax;
-    }
-  }
-
-  .Homepage-containtpage2 {
-    font-size: 1vmax;
-
-    strong {
-      font-size: 1vmax;
-    }
-  }
-}  */
-/* 
-@media screen and (max-width:488px) {
-
-  .Homepage-containtpage1 {
-    font-size: 1.6vmax;
-
-    h1 {
-      font-size: 1.6vmax;
-    }
-  }
-
-  .Homepage-containtpage2 {
-    font-size: 1vmax;
-
-    strong {
-      font-size: 1vmax;
-    }
-  }
-
-  .HomepageBTN {
-    padding: 1vmax 2vmax;
-    font-family: Inter;
-    font-size: 1vmax;
-  }
-} */
-
-
-

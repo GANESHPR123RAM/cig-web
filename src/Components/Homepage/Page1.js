@@ -1,7 +1,6 @@
 import React from 'react'
 import '../Homepage/Page1.css'
 import home_bg_2 from '../Images/home_bg_2.png'
-import { Link } from 'react-router-dom'
 
 function Page1() {
   const HomeopenWindow1 = () => {
