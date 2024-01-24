@@ -7,7 +7,7 @@ import Student from './Student'
 import HeadOf from './HeadOf'
 
 function AboutUs() {
- 
+
     return (
         <>
             <AboutFirst />
